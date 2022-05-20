@@ -353,7 +353,7 @@ nav {
     -webkit-transition: transform 0.35s;
     transition: transform 0.35s;
     z-index: 1;
-    overflow: hidden;
+   
     background-color: #fff;
   }
   nav .m-menu__overlay {
