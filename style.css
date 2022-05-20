@@ -328,7 +328,6 @@ nav {
     -webkit-align-items: center;
     align-items: center;
     border-radius:10px;
-    
     /* fade in checked menu */
   }
   nav .m-menu__checkbox {
@@ -339,6 +338,7 @@ nav {
   }
   nav .m-menu {
     height: 100vh;
+    overflow-y: auto;
     position: absolute;
     top: 0;
     left: 0px;
@@ -355,7 +355,7 @@ nav {
     -webkit-transition: transform 0.35s;
     transition: transform 0.35s;
     z-index: 1;
-    overflow: hidden;
+    
     background-color: #fff;
   }
   nav .m-menu__overlay {
@@ -400,7 +400,7 @@ nav {
   }
   
   nav .m-menu ul {
-    
+   
     overflow-y: auto;
     
     padding-bottom:60px;
