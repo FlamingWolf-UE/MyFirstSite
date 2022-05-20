@@ -399,6 +399,8 @@ nav {
   nav .m-menu ul {
     height: 100%;
     overflow-y: auto;
+    margin-bottom:60px;
+    padding-bottom:60px;
   }
   nav .m-menu ul li a, nav .m-menu ul li label {
     display: block;
@@ -412,11 +414,7 @@ nav {
     border-bottom: 1px solid #e8e8e8;
     position: relative;
   }
-  nav .m-menu ul 
-  {
-      margin-bottom:60px;
-      padding-bottom:60px;
-  }
+
   nav .m-menu ul li label.a-label__chevron::after {
     content: "";
     position: absolute;
