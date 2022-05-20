@@ -327,6 +327,7 @@ nav {
     display: flex;
     -webkit-align-items: center;
     align-items: center;
+    border-radius:10px;
     /* fade in checked menu */
   }
   nav .m-menu__checkbox {
@@ -363,7 +364,7 @@ nav {
     margin:0;
     left:0px;
     width: 100%;
-    bottom: 0;
+    bottom: -200px;
     z-index: 1;
     display: none;
     
