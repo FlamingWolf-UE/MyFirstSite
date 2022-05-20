@@ -353,7 +353,7 @@ nav {
     -webkit-transition: transform 0.35s;
     transition: transform 0.35s;
     z-index: 1;
-   
+    overflow: hidden;
     background-color: #fff;
   }
   nav .m-menu__overlay {
@@ -411,6 +411,11 @@ nav {
     font-size: 1rem;
     border-bottom: 1px solid #e8e8e8;
     position: relative;
+  }
+  nav .m-menu ul 
+  {
+      margin-bottom:60px;
+      padding-bottom:60px;
   }
   nav .m-menu ul li label.a-label__chevron::after {
     content: "";
