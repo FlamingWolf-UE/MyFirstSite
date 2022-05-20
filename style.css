@@ -396,10 +396,11 @@ nav {
     -webkit-transform: translate3d(480px, 0, 0);
     transform: translate3d(480px, 0, 0);
   }
+  
   nav .m-menu ul {
     height: 100vh;
     overflow-y: auto;
-    margin-bottom:60px;
+    
     padding-bottom:60px;
   }
   nav .m-menu ul li a, nav .m-menu ul li label {
